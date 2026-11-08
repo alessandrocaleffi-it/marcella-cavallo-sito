@@ -22,7 +22,7 @@ form.addEventListener('submit', e => {
   if (!val('name')) { document.getElementById('name').focus(); return; }
   const service = document.getElementById('service').selectedOptions[0].textContent;
   const preferred = new Date(`${date.value}T12:00:00`).toLocaleDateString('it-IT');
-  document.getElementById('requestText').value = `Ciao Marcella, sono ${val('name')}.\nVorrei richiedere un incontro.\n\nPercorso: ${service}\nSede: ${val('location')}\nData preferita: ${preferred}\nEmail: ${val('email')}${val('phone') ? '\nTelefono: '+val('phone') : ''}\n\nAttendo un tuo riscontro per concordare disponibilità, orario e dettagli. Grazie!`;
+  document.getElementById('requestText').value = `Ciao Marcella, sono ${val('name')}.\nVorrei richiedere un incontro.\n\nPercorso: ${service}\nSede: ${val('location')}\nData preferita: ${preferred}\nEmail: ${val('email')}${val('phone') ? '\nTelefono: '+val('phone') : ''}${val('notes') ? '\n\nNote: '+val('notes') : ''}\n\nAttendo un tuo riscontro per concordare disponibilità, orario e dettagli. Grazie!`;
   document.getElementById('requestStatus').textContent = 'La richiesta è pronta da copiare. Non è stata inviata e l’appuntamento non è confermato.';
   result.hidden = false;
 });
