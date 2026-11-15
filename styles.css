@@ -36,3 +36,30 @@
     height: 54px;
   }
 }
+
+.nav .logo {
+  font-size: clamp(24px, 3.2vw, 34px);
+}
+.nav .logo img {
+  width: 70px;
+  height: 70px;
+  border-radius: 0;
+}
+.nav .logo small {
+  font-size: clamp(10px, 1.1vw, 12px);
+  letter-spacing: .13em;
+  line-height: 1.35;
+  margin-top: 6px;
+}
+.hero-natural {
+  display: block;
+  font-size: .54em;
+  letter-spacing: -.035em;
+  margin-top: .24em;
+}
+@media (max-width: 850px) {
+  .nav .logo img {
+    width: 58px;
+    height: 58px;
+  }
+}
