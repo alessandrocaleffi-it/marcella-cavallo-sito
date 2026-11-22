@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://marcellacavallo.it/</loc>
-  </url>
+  <url><loc>https://marcellacavallo.it/</loc></url>
+  <url><loc>https://marcellacavallo.it/shiatsu/</loc></url>
+  <url><loc>https://marcellacavallo.it/medicina-tradizionale-cinese/</loc></url>
+  <url><loc>https://marcellacavallo.it/yoga/</loc></url>
 </urlset>
