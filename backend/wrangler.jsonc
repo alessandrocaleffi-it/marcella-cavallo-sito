@@ -1,0 +1,11 @@
+{
+  "name": "marcella-richieste",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-11-08",
+  "workers_dev": true,
+  "observability": {"enabled": false},
+  "vars": {
+    "ALLOWED_ORIGINS": "https://alessandrocaleffi-it.github.io",
+    "ALLOWED_HOSTNAMES": "alessandrocaleffi-it.github.io"
+  }
+}
